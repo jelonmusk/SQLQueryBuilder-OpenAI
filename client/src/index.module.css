@@ -65,3 +65,42 @@
   margin-top: 40px;
   width: 69ch;
 }
+
+.codeContainer {
+  position: relative;
+  margin-top: 1rem;
+  /* no padding-bottom here because button is outside */
+  max-width: 100%;
+}
+
+.codeBlock {
+  background-color: #ffffff;
+  color: #000000;
+  font-family: 'Courier New', Courier, monospace;
+  padding: 1rem;
+  border-radius: 8px;
+  border: 1px solid #a75dda;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  white-space: pre-wrap;
+  word-break: break-word;
+  overflow-x: auto;
+  margin-right: 3.5rem; /* reserve space on right for the button */
+}
+
+.copyButton {
+  background-color: #a75dda;
+  color: #ffffff;
+  border: none;
+  padding: 0.25rem 0.5rem;
+  cursor: pointer;
+  font-size: 0.9rem;
+  border-radius: 4px;
+  position: absolute;
+  top: 8px;
+  right: 8px;
+  transition: background-color 0.2s ease;
+}
+
+.copyButton:hover {
+  background-color: #8640c3;
+}
