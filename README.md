@@ -1,7 +1,7 @@
 
 ````markdown
 # SQLQueryBuilder-OpenAI
-
+[Visit AI](https://sql-query-builder-open-8hb5isp79-jelonmusk-gmailcoms-projects.vercel.app/)
 SQLQueryBuilder-OpenAI is a full-stack application built with React (frontend) and Node.js + Express (backend).  
 It leverages OpenAI's GPT API to dynamically generate SQL queries from natural language prompts.
 
