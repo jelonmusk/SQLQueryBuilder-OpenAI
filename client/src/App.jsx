@@ -18,7 +18,7 @@ function App() {
   };
 
   const generateQuery = async () => {
-    const response = await fetch("http://localhost:3005/generate", {
+    const response = await fetch(`${process.env.REACT_APP_API_URL}/generate`, {
       method: "POST",
       headers: {
         "Content-Type": "application/json",
